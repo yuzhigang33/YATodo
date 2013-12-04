@@ -39,7 +39,7 @@ class Page
   field :permalink, type: String, default: -> { make_permalink }
 
   def make_permalink
-    title.downcase.gsub(/W/,'-').squeeze('-').chomp('-') if title
+    title.downcase.gsub(/W/,'-').squeeze('-').chomp('-') if title ##while the '-' be space ?
   end
 end
 
