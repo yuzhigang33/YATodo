@@ -1,2 +1,3 @@
 YATodo
 ======
+This is yet another Todo list app...
